@@ -1,0 +1,22 @@
+:root {
+    --brandColor: #473C38;
+    --primaryColor: #C2B19C;
+    --secondColor: #F0F1F0;
+    --thirdColor: #B2935B;
+    --darkColor: #666666;
+    --fontSizeH1: 60px;
+    --fontSizeH2: 48px;
+    --fontSizeH3: 24px;
+    --fontSizeH4: 40px;
+    --fontSizeP1: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--brandColor);
+    font-size: var(--fontSizeP1);
+}
+
+a:hover{
+    text-decoration: underline;
+}
