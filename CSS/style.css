@@ -11,12 +11,51 @@
     --fontSizeP1: 16px;
 }
 
-a{
+body {
+    font-family: "Playfair Display", sans-serif;
+}
+
+a {
     text-decoration: none;
     color: var(--brandColor);
     font-size: var(--fontSizeP1);
 }
 
-a:hover{
+h1 {
+    font-size: var(--fontSizeH1);
+    color: #FFFFFF;
+}
+
+p, .btn {
+    font-size: var(--fontSizeP1);
+    font-family: "Roboto", sans-serif;
+}
+
+a:hover {
     text-decoration: underline;
+}
+
+.banner {
+    background-color: var(--brandColor);
+}
+
+.banner p {
+    color: #FFFFFF;
+}
+
+.btn-banner {
+    background-color: var(--primaryColor);
+    color: var(--brandColor);
+    border: 5px;
+    height: 40px;
+    width: 230px;
+    font-size: var(--fontSizeP1);
+    cursor: pointer;
+}
+
+.btn-banner:hover {
+    background-color: none;
+    border: 0.5px solid var(--primaryColor);
+    border-color: var(--primaryColor);
+    color: var(--primaryColor)
 }
